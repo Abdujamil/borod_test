@@ -122,6 +122,12 @@ body {
                 }
             }
         }
+
+        @media (max-width: 1280px) {
+           header{
+            top: 10px;
+           }
+        }
         
         @media (max-width: 1210px) {
             header {
@@ -548,14 +554,13 @@ body {
                             }
                         }
                     }
-
-                    @media (max-width: 1210px) {
+                    
+                    
+                    @media (max-width: 1280px) {
                         .slide-body{
-                           margin-top: 75px;
+                           margin-top: 0;
                         }
                     }
-
-                    
                 }
         
                 @media (max-width: 768px) {
