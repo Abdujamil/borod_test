@@ -329,7 +329,7 @@ body {
         
                             @media (max-width: 540px) {
                                 h1 {
-                                    font-size: 9vw;
+                                    font-size: 6vw;
                                 }
         
                                 .slide2_title {
@@ -458,8 +458,8 @@ body {
                                     }
                                 }
 
-
-                                @media (max-width: 375px) {
+                                
+                                @media (max-width: 540px) {
                                     #progress-bar {
                                         gap: 10px;
                                         margin-bottom: 75px;
@@ -555,6 +555,12 @@ body {
                     @media (max-width: 375px) {
                         .slide-body{
                             transform: translate(-50%, -55%);
+                        }
+                    }
+
+                    @media (max-width: 412px) {
+                        .slide-body{
+                            transform: translate(-50%, -40%);
                         }
                     }
 
